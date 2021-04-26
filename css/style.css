@@ -46,3 +46,64 @@ h1{
     color: white;
     font-weight: bold;
 }
+.desc{
+    margin: 10px;
+  display: block;
+  /* background-color: white; */
+  width: 600px;
+  padding: 20px;
+  text-align: center;
+  color: rgb(247, 241, 241);
+  font-weight: bolder;
+}
+
+.popup-wrap{
+    display: flex;
+    flex-direction: row;
+}
+
+.popup-left{
+    width: 300px;
+    height: 450px;
+    background-image: url("images/ghana2.jpg");
+    background-size: cover;
+}
+
+.popup-right{
+    width: 370px;
+    height: 450px;
+    background: white;
+    position: relative;
+}
+
+.close{
+    position: absolute;
+    font-size: 20px;
+    right: 15px;
+    top: -12px;
+    cursor: pointer;
+}
+
+.popup-right{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.popup-right form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 70%;
+}
+
+.popup-right form .field{
+    border: none;
+    outline: none;
+    border-bottom: solid 1px black;
+    padding: 10px;
+    margin: 10px 0;
+    letter-spacing: 1px;
+    font-size: 12px;
+}
